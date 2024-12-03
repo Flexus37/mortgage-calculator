@@ -1,11 +1,12 @@
-import './App.css';
+import './app.scss';
+import Calculator from '../calculator/Calculator'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-      </header>
+    <div className="app">
+      <div className="container">
+        <Calculator />
+      </div>
     </div>
   );
 }
